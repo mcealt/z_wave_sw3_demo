@@ -1,3 +1,18 @@
+This project is based on the ZWave_SoC_SwitchOnOff_Solution, and includes the boot/boot_ZWave_Switch3.hex file.
+
+Hardwave: BRD4001A Rev A01 | BRD4210A | BRD8029A Rev A00
+     sdk: GSDK 4.4.3
+     
+1.Use simplicity studio import this project ZWave_Switch3.
+
+2.recover cc_binary_switch_config.c
+
+3.build this project ZWave_Switch3
+
+4.download boot/boot_ZWave_Switch3.hex and ZWave_Switch3.hex
+
+
+
 # Switch On/Off
 
 The Z-Wave certified Switch On/Off application shows a switch implementation, that turns on any device that is connected to power. Examples include lights, appliances, etc.
