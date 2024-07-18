@@ -33,6 +33,7 @@ below lists the supported Command Classes, their version, and their required Sec
 | Transport Service         |    2    | None                           |
 | Version                   |    3    | Highest granted Security Class |
 | Z-Wave Plus Info          |    2    | None                           |
+| MULTI_CHANNEL             |    4    | None                           |
 
 ### Basic Command Class mapping
 
