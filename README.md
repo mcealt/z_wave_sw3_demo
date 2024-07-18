@@ -33,6 +33,7 @@ below lists the supported Command Classes, their version, and their required Sec
 | Transport Service         |    2    | None                           |
 | Version                   |    3    | Highest granted Security Class |
 | Z-Wave Plus Info          |    2    | None                           |
+| MULTI_CHANNEL             |    4    | None                           |
 
 ### Basic Command Class mapping
 
@@ -97,6 +98,14 @@ The following LEDs and buttons shown in the next table below are used.
 </tr><tr>
     <td>Hold for at least 5 seconds and release</td>
     <td>Perform a reset to factory default operation of the device, and a Device Reset Locally Notification Command is sent via Lifeline.</td>
+</tr><tr>
+    <td>BTN2</td>
+    <td>Press</td>
+    <td>Toggle LED3</td>
+</tr><tr>
+    <td>BTN3</td>
+    <td>Press</td>
+    <td>Toggle LED2</td>
 </tr>
 </table>
 
@@ -113,6 +122,12 @@ The following LEDs and buttons shown in the next table below are used.
         Blinks with 1 Hz when learn mode is active.<br>
         Used for Indicator Command Class.
     </td>
+</tr><tr>
+    <td>LED2</td>
+    <td>Switch: LED ON indicates SWITCH ON / LED OFF indicates SWITCH OFF</td>
+</tr><tr>
+    <td>LED3</td>
+    <td>Switch: LED ON indicates SWITCH ON / LED OFF indicates SWITCH OFF</td>
 </tr>
 </table>
 
