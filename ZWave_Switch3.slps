@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ASCII"?>
+<model:MDescriptors xmlns:model="http://www.silabs.com/ss/Studio.ecore">
+  <descriptors name="ZWave_Switch3">
+    <properties key="projectCommon.sdkId" value="com.silabs.sdk.stack.super:4.4.3._416661074"/>
+    <properties key="universalConfig.relativeWorkspacePath" value="..\ZWave_Switch3.slcw"/>
+    <properties key="universalConfig.generationDirectory" value="..\..\..\..\..\..\..\Users\mcealt_DS\SimplicityStudio\v5_workspace_4_4_3\ZWave_Switch3"/>
+    <properties key="universalConfig.toolchainCompatibility" value="iar gcc"/>
+    <properties key="universalConfig.incrementalOverwriteConfigs" value="false"/>
+    <properties key="projectCommon.boardIds" value="brd4001a:0.0.0.A01 brd8029a:0.0.0.A00 brd4210a:0.0.0"/>
+    <properties key="projectCommon.kitId" value=""/>
+    <properties key="projectCommon.partId" value="mcu.arm.efr32.zg23.efr32zg23b020f512im48"/>
+    <properties key="projectCommon.toolchainId" value="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:12.2.1.20221205"/>
+    <properties key="universalConfig.projectTypeIds" value="com.silabs.ss.framework.ide.project.core.cdtMbsProjectType"/>
+    <properties key="projectCommon.importModeId" value="COPY"/>
+    <properties key="universalConfig.compSelProjInstanceId" value="1721292383094"/>
+  </descriptors>
+</model:MDescriptors>
