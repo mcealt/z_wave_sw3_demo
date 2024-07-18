@@ -12,9 +12,19 @@
 
 static cc_binary_switch_t binary_switches[] = {
   {
-    .endpoint = 0,
+    .endpoint = 1,
     .default_duration = CC_BINARY_SWITCH_CONFIG_DEFAULT_DURATION,
-    .callback = cc_binary_switch_handler
+    .callback = cc_binary_switch_handler1
+  },
+  {
+    .endpoint = 2,
+    .default_duration = CC_BINARY_SWITCH_CONFIG_DEFAULT_DURATION,
+    .callback = cc_binary_switch_handler2
+  },
+  {
+    .endpoint = 3,
+    .default_duration = CC_BINARY_SWITCH_CONFIG_DEFAULT_DURATION,
+    .callback = cc_binary_switch_handler3
   },
 };
 
@@ -31,3 +41,5 @@ uint8_t cc_binary_switch_get_config_length(void)
 }
 
 ZAF_CC_REGISTER_CONFIG(COMMAND_CLASS_SWITCH_BINARY, &binary_switches[0], 0);
+ZAF_CC_REGISTER_CONFIG(COMMAND_CLASS_SWITCH_BINARY, &binary_switches[1], 1);
+ZAF_CC_REGISTER_CONFIG(COMMAND_CLASS_SWITCH_BINARY, &binary_switches[2], 2);
